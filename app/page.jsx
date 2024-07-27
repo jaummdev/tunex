@@ -2,6 +2,8 @@ import Image from "next/image";
 import { Button } from "./components/button";
 import { Header } from "./components/header";
 import Character from "@/app/assets/character.svg"
+import { Card } from "./components/card";
+import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
@@ -22,6 +24,7 @@ export default function Home() {
           <Image
             src={Character}
             width={450}
+            alt="Character"
           />
         </section>
       </section>
@@ -32,6 +35,14 @@ export default function Home() {
           <h3 className="text-2xl">escolha o melhor plano para você.</h3>
         </div>
       </section>
+
+      <section className="w-full flex items-center justify-center my-[5rem] gap-10">
+        <Card text="Novice" price="R$14,99" oldPrice="R$21,99" />
+        <Card text="Legend" price="R$27,99" best="Melhor opção" oldPrice="R$32,99" />
+        <Card text="Hero" price="R$19,99" oldPrice="R$24,99" />
+      </section>
+
+      <Footer />
     </main>
   );
 }
