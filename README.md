@@ -13,17 +13,15 @@ Este projeto é uma Landing Page simples que apresenta serviços de streaming de
 
 ## Tecnologias Utilizadas
 
-<div style="display:flex; align-items:center; gap: 10px">
-<div style="display:flex; gap:10px">
-    <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/nextjs/nextjs-original.svg">
-    <h3>Next JS</h3>
-</div>
+<section style="display:flex; align-items:center; gap: 10px;">
 
-<div style="display:flex; gap:10px">
-    <img width="30" src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/tailwindcss/tailwindcss-original.svg">
-    <h3>Tailwind CSS</h3>
-</div>
-</div>
+<img width="30" src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/nextjs/nextjs-original.svg">
+<h3>Next JS</h3>
+
+<img width="30" src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/tailwindcss/tailwindcss-original.svg">
+<h3>Tailwind CSS</h3>
+
+</section>
 
 
 ## Contato
