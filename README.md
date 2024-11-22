@@ -13,12 +13,8 @@ Este projeto é uma Landing Page simples que apresenta serviços de streaming de
 
 ## Tecnologias Utilizadas
 
-<section style="display:flex; align-items:center; gap: 10px;">
-
-### Next JS
-### Tailwind CSS
-
-</section>
+### - Next JS
+### - Tailwind CSS
 
 
 ## Contato
