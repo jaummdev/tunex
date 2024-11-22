@@ -16,6 +16,8 @@ module.exports = {
         "red": "#FF007A",
         "light-red": "#FF76B8",
         "black": "#18161C",
+        "black-night": "#0D0D0E",
+        "icons": "#39383C",
       }
     },
   },

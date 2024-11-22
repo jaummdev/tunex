@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
@@ -11,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
+      <Head>
+        <link rel="shortcut icon" href="./favicon.ico" />
+      </Head>
       <body className={poppins.className}>{children}</body>
     </html>
   );

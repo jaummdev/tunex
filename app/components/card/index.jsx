@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Legend from "@/app/assets/legend.png"
-import Hero from "@/app/assets/hero.png"
-import Novice from "@/app/assets/novice.png"
+import Legend from "../../assets/legend.png"
+import Hero from "../../assets/hero.png"
+import Novice from "../../assets/novice.png"
 
 export function Card({ text, price, best, oldPrice }) {
 
